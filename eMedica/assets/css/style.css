@@ -510,7 +510,7 @@ h6 {
 #hero:before {
     content: "";
     /* background: rgba(6, 101, 183, 0.5); */
-    background: linear-gradient(rgba(6, 101, 183, 0.25), rgba(6, 101, 183, 0.75), rgba(6, 101, 183, 0.25));
+    background: linear-gradient(rgba(6, 101, 183, 0.5), rgba(6, 101, 183, 0.75), rgba(6, 101, 183, 0.5));
     position: absolute;
     bottom: 0;
     top: 0;
