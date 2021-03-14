@@ -870,7 +870,7 @@ section {
 }
 
 .why-us .video-box {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 400px;
@@ -1108,7 +1108,7 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-    background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+    background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9)), url("../img/cta.jpg") fixed center center;
     background-size: cover;
     padding: 120px 0;
 }
@@ -1321,6 +1321,7 @@ section {
 
 .portfolio-details .portfolio-description p {
     padding: 0;
+    text-align: justify;
 }
 
 
@@ -1586,6 +1587,7 @@ section {
 .faq .faq-list p {
     margin-bottom: 0;
     padding: 10px 0 0 0;
+    text-align: justify;
 }
 
 .faq .faq-list .icon-show {
@@ -1882,6 +1884,7 @@ section {
 
 .blog .entry .entry-content p {
     line-height: 24px;
+    text-align: justify;
 }
 
 .blog .entry .entry-content .read-more {
