@@ -190,7 +190,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
     z-index: 997;
     height: 70px;
@@ -198,7 +198,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background: rgba(5, 87, 158, 0.9);
+    background: rgba(255, 254, 254, 0.9);
     top: 0;
 }
 
@@ -221,7 +221,7 @@ h6 {
 }
 
 .header-inner-pages {
-    background: rgba(5, 87, 158, 0.9) !important;
+    background: rgba(255, 254, 254, 0.9) !important;
 }
 
 .topbar-inner-pages {
@@ -266,7 +266,7 @@ h6 {
     justify-content: space-between;
     padding: 0 3px;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(5, 87, 158, 0.9);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -301,7 +301,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar li:hover>a {
-    color: #fff;
+    color: #0880e8;
 }
 
 .navbar .dropdown ul {
@@ -376,7 +376,7 @@ h6 {
 */
 
 .mobile-nav-toggle {
-    color: #fff;
+    color: #000;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -1202,6 +1202,9 @@ section {
     position: relative;
     top: 0;
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfoio .portfolio-item .portfolio-info {
