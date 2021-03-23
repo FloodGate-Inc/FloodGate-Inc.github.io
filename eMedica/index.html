@@ -507,15 +507,13 @@
                     <div class="col-lg-5">
                         <div class="info">
                             <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>Shop No A3/A4/A5 Royal Arcade,<br>Pune Satara Road,<br>Near Shankar Maharaj Math,<br>Pune - 411043</p>
+                                <div id="map"></div>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info.emedica@gmail.com<br>hrohera27@gmail.com</p>
+                                <p>info.emedica@gmail.com</p>
                             </div>
 
                             <div class="phone">
@@ -599,6 +597,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Products</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="treatment.html">Treatment</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="review-and-monitoring.html">Review and Monitoring</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
                         </ul>
                     </div>
 
@@ -686,6 +685,37 @@
         function conf() {
             var con = confirm("We appreciate your interest. A member of our team will get in contact with you within 24 hours.");
         }
+    </script>
+
+    <script>
+        function initMap() {
+            var test = {
+                lat: 18.471535785653057,
+                lng: 73.85743552579558
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: test
+            });
+            const contentString =
+                '<h4>eMedica</h4>' +
+                '<div id="bodyContent">' +
+                "<p>Shop No A3/A4/A5 Royal Arcade," +
+                "Pune Satara Road," +
+                "Near Shankar Maharaj Math," +
+                "Pune - 411043</p>";
+            const infowindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+            var marker = new google.maps.Marker({
+                position: test,
+                map: map,
+                title: 'eMedica'
+            });
+            infowindow.open(map, marker);
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxYMuLZvXEpayzrFcLFOvsqtRsF-YfeJA&callback=initMap">
     </script>
 
 </body>

@@ -1630,6 +1630,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
+#map {
+    width: 100%;
+    height: 315px;
+    background-color: #000000;
+    z-index: 11;
+}
+
 .contact {
     background: url("../img/contact-bg.png") left center no-repeat;
     position: relative;
