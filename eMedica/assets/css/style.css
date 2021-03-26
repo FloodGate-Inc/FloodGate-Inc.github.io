@@ -1237,6 +1237,14 @@ section {
     margin-bottom: 0;
 }
 
+.buy-now {
+    color: #ffffff;
+}
+
+.buy-now:hover {
+    color: #bfe0fd;
+}
+
 .portfoio .portfolio-item .portfolio-info .preview-link,
 .portfoio .portfolio-item .portfolio-info .details-link {
     position: absolute;

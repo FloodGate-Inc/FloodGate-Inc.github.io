@@ -45,6 +45,7 @@
                 <i class="bi bi-phone-fill phone-icon"></i> +91 90282 58789
             </div>
             <div class="cta d-none d-md-block">
+                <a href="" class="scrollto"><strong>BUY NOW</strong></a>
                 <a href="index.html#contact" class="scrollto"><strong>DISTRIBUTION REGISTRATION</strong></a>
             </div>
         </div>
@@ -60,7 +61,19 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto active" href="emedica.html#emedica">eMedica</a></li>
+                    <li class="dropdown"><a href="emedica.html#emedica"><span>eMedica</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="emedica.html">About eMedica</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="team.html">Teams</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="certificates.html">Certifications</a></li>
+                            <li><a href="#downloads">Downloads</a></li>
+                            <li><a href="jobs.html">Career</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown"><a href="index.html#portfolio"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="medical-device.html">Medical Device</a></li>
@@ -347,28 +360,6 @@
                                 </ul>
                             </div>
                             <!-- End sidebar categories-->
-
-                            <h3 class="sidebar-title">Certificates</h3>
-                            <div class="sidebar-item recent-posts">
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/certificate/compliance_1.jpg" alt="">
-                                    <h4><a href="assets/img/certificate/compliance_1.jpg" data-gall="portfolioGallery" class="portfolio-lightbox preview-link">Certificate of Compliance</a></h4>
-                                    <time datetime="2020-06-06">Jun 6, 2020</time>
-                                </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/certificate/registration_1.jpg" alt="">
-                                    <h4><a href="assets/img/certificate/registration_1.jpg" data-gall="portfolioGallery" class="portfolio-lightbox preview-link">Certificate of Registration</a></h4>
-                                    <time datetime="2020-04-07">Apr 7, 2020</time>
-                                </div>
-
-                                <div class="post-item clearfix">
-                                    <img src="assets/img/certificate/compliance_2.jpg" alt="">
-                                    <h4><a href="assets/img/certificate/compliance_2.jpg" data-gall="portfolioGallery" class="portfolio-lightbox preview-link">Certificate of Compliance</a></h4>
-                                    <time datetime="2020-07-07">Jul 7, 2020</time>
-                                </div>
-                            </div>
-                            <!-- End sidebar recent posts-->
                         </div>
                         <!-- End sidebar -->
 
@@ -387,22 +378,6 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
 
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h4>Our Newsletter</h4>
-                        <p>Never miss Updates about our Latest Products and Healing Centers</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -416,7 +391,13 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Products</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="treatment.html">Treatment</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="review-and-monitoring.html">Review and Monitoring</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="vision.html">Vision</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="team.html">Teams</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="certificates.html">Certifications</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="jobs.html">Career</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
                         </ul>
                     </div>
 
@@ -429,8 +410,7 @@
                         </ul>
 
                         <br>
-
-                        <h4>Downloads</h4>
+                        <h4 id="downloads">Downloads</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="assets/documents/Brochure.pdf" download="Brochure.pdf">Brochure</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="assets/documents/Credentials.pdf" download="Credentials.pdf">Credentials</a></li>
