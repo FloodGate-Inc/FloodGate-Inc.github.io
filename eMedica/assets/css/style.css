@@ -1273,6 +1273,12 @@ section {
     bottom: 0;
 }
 
+.gallery {
+    max-height: 180px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -2370,6 +2376,39 @@ section {
     background: #0880e8;
     color: #fff;
     text-decoration: none;
+}
+
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect;
+    /* for Safari 4.0 - 8.0 */
+    animation: 1s linear infinite condemned_blink_effect;
+}
+
+
+/* for Safari 4.0 - 8.0 */
+
+@-webkit-keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
 }
 
 
