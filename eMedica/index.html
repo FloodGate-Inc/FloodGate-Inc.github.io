@@ -46,7 +46,7 @@
             </div>
             <div class="cta d-none d-md-block">
                 <a href="" class="scrollto"><strong>BUY NOW</strong></a>
-                <a href="index.html#contact" class="scrollto"><strong>DISTRIBUTION REGISTRATION</strong></a>
+                <a href="register.html" class="scrollto"><strong>DISTRIBUTION REGISTRATION</strong></a>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
                     <li class="dropdown"><a href="emedica.html"><span>eMedica</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="emedica.html">About eMedica</a></li>
-                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="mission.html">Mission</a></li>
                             <li><a href="team.html">Teams</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="videos.html">Videos</a></li>
@@ -399,6 +399,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <img src="assets/img/product/medical-device.png" class="img-fluid" alt="">
+                        <blink>
+                            <div class="centered">
+                                <strong>&nbsp;Launching Soon!&nbsp;</strong>
+                            </div>
+                        </blink>
                         <div class="portfolio-info">
                             <h4>Medical Device</h4>
                             <p>Mobile</p>
@@ -423,6 +428,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <img src="assets/img/product/tens-device.png" class="img-fluid" alt="">
+                        <blink>
+                            <div class="centered">
+                                <strong>&nbsp;Launching Soon!&nbsp;</strong>
+                            </div>
+                        </blink>
                         <div class="portfolio-info">
                             <h4>Tens Device</h4>
                             <p>Immobile</p>
@@ -527,7 +537,8 @@
                     <div class="col-lg-5">
                         <div class="info">
                             <div class="address">
-                                <div id="map"></div>
+                                <iframe style="border: 0;" tabindex="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2722765225785!2d73.8552361144667!3d18.471322087437716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eabb3cbcf137%3A0x3c9a0c4b22faf9d2!2sRoyal%20Arcade!5e0!3m2!1sen!2sin!4v1604386710693!5m2!1sen!2sin"
+                                    width="100%" height="315" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false"></iframe>
                             </div>
 
                             <div class="email">
@@ -551,25 +562,25 @@
                         <form name="submit-to-google-sheet" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                    <input type="text" name="Name" class="form-control" id="name" placeholder="Your Name" required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" name="Email" id="email" placeholder="Your Email" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 form-group">
-                                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Phone" required>
+                                    <input type="tel" name="Phone" class="form-control" id="phone" placeholder="Your Phone" required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="text" class="form-control" name="place" id="place" placeholder="Your Place" required>
+                                    <input type="text" class="form-control" name="Place" id="place" placeholder="Your Place" required>
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject" required>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                                <textarea class="form-control" name="Message" id="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                             <div class="text-center"><button type="submit" onClick="conf()">Send Message</button></div>
                         </form>
@@ -603,7 +614,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Products</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="treatment.html">Treatment</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="review-and-monitoring.html">Review and Monitoring</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="vision.html">Vision</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="mission.html">Mission</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="team.html">Teams</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="videos.html">Videos</a></li>
@@ -697,37 +708,6 @@
         function conf() {
             var con = confirm("We appreciate your interest. A member of our team will get in contact with you within 24 hours.");
         }
-    </script>
-
-    <script>
-        function initMap() {
-            var test = {
-                lat: 18.471535785653057,
-                lng: 73.85743552579558
-            };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 17,
-                center: test
-            });
-            const contentString =
-                '<h4>eMedica</h4>' +
-                '<div id="bodyContent">' +
-                "<p>Office No A3/A4/A5 Royal Arcade," +
-                "Pune Satara Road," +
-                "Near Shankar Maharaj Math," +
-                "Pune - 411043</p>";
-            const infowindow = new google.maps.InfoWindow({
-                content: contentString,
-            });
-            var marker = new google.maps.Marker({
-                position: test,
-                map: map,
-                title: 'eMedica'
-            });
-            infowindow.open(map, marker);
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxYMuLZvXEpayzrFcLFOvsqtRsF-YfeJA&callback=initMap">
     </script>
 
 </body>
