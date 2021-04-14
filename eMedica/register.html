@@ -149,41 +149,41 @@
 
                 <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
 
-                    <form name="submit-to-google-sheet" class="php-email-form">
+                    <form method="POST" action="send-register.php" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="Name" class="form-control" id="name" placeholder="*Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="*Name" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="Email" id="email" placeholder="*Email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="*Email" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="Address1" id="subject" placeholder="*Address Line 1" required>
+                            <input type="text" class="form-control" name="address1" id="subject" placeholder="*Address Line 1" required>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="Address2" id="subject" placeholder="Address Line 2">
+                            <input type="text" class="form-control" name="address2" id="subject" placeholder="Address Line 2">
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="City" class="form-control" id="city" placeholder="*City" required>
+                                <input type="text" name="city" class="form-control" id="city" placeholder="*City" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="text" class="form-control" name="State" id="state" placeholder="*State" required>
+                                <input type="text" class="form-control" name="state" id="state" placeholder="*State" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="PinCode" class="form-control" id="pincode" placeholder="*Pin Code" required>
+                                <input type="text" name="pincode" class="form-control" id="pincode" placeholder="*Pin Code" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="tel" name="Phone" class="form-control" id="phone" placeholder="*Phone No." required>
+                                <input type="tel" name="phone" class="form-control" id="phone" placeholder="*Phone No." required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="Remarks" id="remarks" rows="5" placeholder="Remarks"></textarea>
+                            <textarea class="form-control" name="remarks" id="remarks" rows="5" placeholder="Remarks"></textarea>
                         </div>
-                        <div class="text-center"><button type="submit" onClick="conf()">Register</button></div>
+                        <div class="text-center"><button type="submit">Register</button></div>
                     </form>
 
                 </div>
@@ -288,24 +288,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxrlRDUojg6syDb0qFoZUorOL7jbORpJ0YUBKACJFOZQ63oUSM/exec'
-        const form = document.forms['submit-to-google-sheet']
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-        })
-
-        function conf() {
-            var con = confirm("We appreciate your interest. A member of our team will get in contact with you within 24 hours.");
-        }
-    </script>
 
 </body>
 
