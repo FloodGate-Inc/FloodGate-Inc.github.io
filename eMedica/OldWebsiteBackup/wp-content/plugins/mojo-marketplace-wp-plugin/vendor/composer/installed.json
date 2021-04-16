@@ -1,0 +1,349 @@
+[
+    {
+        "name": "bluehost/endurance-wp-module-business-reviews",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-module-business-reviews.git",
+            "reference": "05ecf887a98c95642ae845bafd7be5b609304763"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-module-business-reviews/zipball/05ecf887a98c95642ae845bafd7be5b609304763",
+            "reference": "05ecf887a98c95642ae845bafd7be5b609304763",
+            "shasum": ""
+        },
+        "time": "2019-01-08T15:58:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "William Earnhardt",
+                "email": "william.earnhardt@endurance.com"
+            }
+        ],
+        "description": "Bluehost Business Reviews Integration",
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-module-business-reviews/tree/1.0.3",
+            "issues": "https://github.com/bluehost/endurance-wp-module-business-reviews/issues"
+        }
+    },
+    {
+        "name": "bluehost/endurance-wp-module-gutenframe",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-module-gutenframe.git",
+            "reference": "5affb465c83dcb8b8c77203e257c852d3d5aa8a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-module-gutenframe/zipball/5affb465c83dcb8b8c77203e257c852d3d5aa8a5",
+            "reference": "5affb465c83dcb8b8c77203e257c852d3d5aa8a5",
+            "shasum": ""
+        },
+        "require-dev": {
+            "bluehost/wp-php-standards": "^1.1"
+        },
+        "time": "2019-08-06T17:50:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ],
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "scripts": {
+            "lint": [
+                "vendor/bin/phpcs . --standard=Bluehost"
+            ],
+            "clean": [
+                "vendor/bin/phpcbf . --standard=Bluehost"
+            ]
+        },
+        "authors": [
+            {
+                "name": "David Ryan",
+                "email": "davidb.ryan@endurance.com"
+            }
+        ],
+        "description": "A solution for forcing the Block Editor fullscreen and preparing it for <iframe>-ing.",
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-module-gutenframe/tree/0.1.2",
+            "issues": "https://github.com/bluehost/endurance-wp-module-gutenframe/issues"
+        }
+    },
+    {
+        "name": "bluehost/endurance-wp-module-loader",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-module-loader.git",
+            "reference": "a9a384596e26950466f7ffc667e0be29f96c36a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-module-loader/zipball/a9a384596e26950466f7ffc667e0be29f96c36a9",
+            "reference": "a9a384596e26950466f7ffc667e0be29f96c36a9",
+            "shasum": ""
+        },
+        "time": "2019-01-08T16:32:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "includes/"
+            ],
+            "files": [
+                "module-loader.php"
+            ]
+        },
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Micah Wood",
+                "email": "micah@wpscholar.com"
+            }
+        ],
+        "description": "An Endurance module that handles registration and management of other modules.",
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-module-loader/tree/1.0.3",
+            "issues": "https://github.com/bluehost/endurance-wp-module-loader/issues"
+        }
+    },
+    {
+        "name": "bluehost/endurance-wp-module-spam-prevention",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-module-spam-prevention.git",
+            "reference": "a9925e475c94aaa6511c297012bdec1f37335f86"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-module-spam-prevention/zipball/a9925e475c94aaa6511c297012bdec1f37335f86",
+            "reference": "a9925e475c94aaa6511c297012bdec1f37335f86",
+            "shasum": ""
+        },
+        "time": "2020-04-15T20:14:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Micah Wood",
+                "email": "micah@wpscholar.com"
+            }
+        ],
+        "description": "Bluehost Spam Prevention Module",
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-module-spam-prevention/tree/1.0.2",
+            "issues": "https://github.com/bluehost/endurance-wp-module-spam-prevention/issues"
+        }
+    },
+    {
+        "name": "bluehost/endurance-wp-module-sso",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-module-sso.git",
+            "reference": "f41f81721a175667cc87973f73a5f7a3d10a79d3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-module-sso/zipball/f41f81721a175667cc87973f73a5f7a3d10a79d3",
+            "reference": "f41f81721a175667cc87973f73a5f7a3d10a79d3",
+            "shasum": ""
+        },
+        "time": "2019-09-27T16:00:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Micah Wood",
+                "email": "micah@wpscholar.com"
+            }
+        ],
+        "description": "Bluehost Single Sign-on Integration",
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-module-sso/tree/1.0.3",
+            "issues": "https://github.com/bluehost/endurance-wp-module-sso/issues"
+        }
+    },
+    {
+        "name": "bluehost/endurance-wp-plugin-updater",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluehost/endurance-wp-plugin-updater.git",
+            "reference": "56e7e6978fbeee71b208d53f777107fe76028116"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluehost/endurance-wp-plugin-updater/zipball/56e7e6978fbeee71b208d53f777107fe76028116",
+            "reference": "56e7e6978fbeee71b208d53f777107fe76028116",
+            "shasum": ""
+        },
+        "require": {
+            "pimple/pimple": "^3.2"
+        },
+        "time": "2020-04-15T19:33:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Endurance_WP_Plugin_Updater\\": ""
+            }
+        },
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Micah Wood",
+                "email": "micah@wpscholar.com"
+            }
+        ],
+        "support": {
+            "source": "https://github.com/bluehost/endurance-wp-plugin-updater/tree/1.0.2",
+            "issues": "https://github.com/bluehost/endurance-wp-plugin-updater/issues"
+        }
+    },
+    {
+        "name": "pimple/pimple",
+        "version": "v3.3.0",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silexphp/Pimple.git",
+            "reference": "e55d12f9d6a0e7f9c85992b73df1267f46279930"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silexphp/Pimple/zipball/e55d12f9d6a0e7f9c85992b73df1267f46279930",
+            "reference": "e55d12f9d6a0e7f9c85992b73df1267f46279930",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2.5",
+            "psr/container": "^1.0"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
+        },
+        "time": "2020-03-03T09:12:48+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Pimple, a simple Dependency Injection Container",
+        "homepage": "https://pimple.symfony.com",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    }
+]

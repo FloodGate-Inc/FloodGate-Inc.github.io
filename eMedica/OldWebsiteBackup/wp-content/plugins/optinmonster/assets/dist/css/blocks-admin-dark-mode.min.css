@@ -1,0 +1,7 @@
+#elementor-editor-wrapper .icon-optinmonster, #elementor-editor-wrapper .elementor-edit-area .icon-optinmonster {
+  -webkit-filter: invert(97%) sepia(7%) saturate(53%) hue-rotate(181deg) brightness(93%) contrast(93%);
+          filter: invert(97%) sepia(7%) saturate(53%) hue-rotate(181deg) brightness(93%) contrast(93%); }
+
+#elementor-editor-wrapper .elementor-element:hover .icon-optinmonster, #elementor-editor-wrapper .elementor-edit-area .elementor-element:hover .icon-optinmonster {
+  -webkit-filter: invert(87%) sepia(16%) saturate(5070%) hue-rotate(168deg) brightness(104%) contrast(94%);
+          filter: invert(87%) sepia(16%) saturate(5070%) hue-rotate(168deg) brightness(104%) contrast(94%); }
