@@ -642,6 +642,10 @@ body {
     content: "05"
 }
 
+.side-nav li:nth-child(6)::before {
+    content: "06"
+}
+
 .side-nav li.is-active {
     color: #fc0000;
     -webkit-transition: color .4s ease-in-out;
@@ -1220,15 +1224,15 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/clients.jpg")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-image: url("../img/work.jpg")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/team.jpg")
 }
 
 .about--options>a:hover h3 {
@@ -1578,16 +1582,18 @@ body {
 }
 
 .work-request--information .information-name,
-.work-request--information .information-email {
+.work-request--information .information-email,
+.work-request--information .information-phone {
     position: relative;
-    width: 45%;
+    width: 30%;
     height: 50px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 300
 }
 
 .work-request--information input[type="text"],
-.work-request--information input[type="email"] {
+.work-request--information input[type="email"],
+.work-request--information input[type="phone"] {
     width: 100%;
     padding: 0 0 5px 0;
     background-color: transparent;
@@ -1597,7 +1603,8 @@ body {
 }
 
 .work-request--information input[type="text"]:focus,
-.work-request--information input[type="email"]:focus {
+.work-request--information input[type="email"]:focus,
+.work-request--information input[type="phone"]:focus {
     outline: none;
     background-color: #0c0c0c
 }
