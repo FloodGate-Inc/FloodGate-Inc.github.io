@@ -1,5 +1,0 @@
-[20-Jan-2021 18:41:47 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/emedica/public_html/wp-includes/functions.php on line 8
-[20-Jan-2021 18:41:47 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/emedica/public_html/wp-includes/functions.php on line 8
-[20-Jan-2021 18:41:47 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/emedica/public_html/wp-includes/functions.php on line 8
-[20-Jan-2021 18:41:47 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/emedica/public_html/wp-includes/functions.php on line 8
-[20-Jan-2021 18:41:47 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/emedica/public_html/wp-includes/functions.php on line 8
